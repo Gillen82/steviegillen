@@ -1,0 +1,97 @@
+/* 
+    Fonts: font-family: 'Rubik', sans-serif;
+
+    Colours: 
+            Burnt Orange: #D9534F;
+            Neon Blue:    #2FA4FF;
+            Blue-Green:   #00FFDD;
+            Faded Yellow: #E8FFC2;
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 100%;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	background-color: #f1e4e4;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	font-size: 1rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+h2 {
+	font-size: 2.25rem;
+}
+
+h1 {
+	font-size: 3.38rem;
+}
+
+.container {
+	position: relative;
+	width: 80%;
+	margin: auto;
+}
+
+/* Header Section */
+.header-flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-header h1 {
+	color: #0e185f;
+	font-weight: 300;
+	margin: 10px 0;
+}
+
+.main-header h1 span {
+	color: #2fa4ff;
+}
+
+/* Navigation */
+.main-nav ul {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	gap: 6rem;
+}
+
+.main-nav a {
+	color: #0e185f;
+	position: relative;
+	bottom: 5px;
+}
+
+.main-nav a:before {
+	content: '';
+	display: block;
+	height: 0.25rem;
+	transform: scale(0, 1);
+	transform-origin: left;
+	background-color: #2fa4ff;
+	margin-bottom: 10px;
+	transition: all 0.3s ease;
+}
+
+.main-nav a:hover::before {
+	transform: scale(1, 1);
+}
