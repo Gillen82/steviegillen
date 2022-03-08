@@ -78,20 +78,20 @@ h1 {
 .main-nav a {
 	color: #0e185f;
 	position: relative;
-	bottom: 5px;
+	top: 5px;
 }
 
-.main-nav a:before {
+.main-nav a:after {
 	content: '';
 	display: block;
 	height: 0.25rem;
 	transform: scale(0, 1);
 	transform-origin: left;
 	background-color: #2fa4ff;
-	margin-bottom: 10px;
+	margin-top: 10px;
 	transition: all 0.3s ease;
 }
 
-.main-nav a:hover::before {
+.main-nav a:hover::after {
 	transform: scale(1, 1);
 }
