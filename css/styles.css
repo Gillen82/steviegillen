@@ -4,6 +4,7 @@
     Colours: 
             Burnt Orange: #D9534F;
             Neon Blue:    #336694;
+			light Blue:   #63a6e0;
 */
 
 * {
@@ -25,6 +26,7 @@ ul {
 
 a {
 	text-decoration: none;
+	color: #63a6e0;
 }
 
 p {
@@ -131,6 +133,16 @@ h1 {
 	align-items: center;
 	margin-top: 50px;
 	position: relative;
+	opacity: 0;
+	transform: scale(0.9, 0.9);
+	transform: translateY(50px);
+	transition: all 1s ease;
+}
+
+.active {
+	opacity: 1;
+	transform: scale(1, 1);
+	transform: translateY(0);
 }
 
 .project .img {
