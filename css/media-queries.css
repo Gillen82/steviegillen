@@ -33,16 +33,27 @@
 	}
 
 	/* Hero */
-	.hero {
-		height: 90vh;
+	.frame {
+		height: 38vh;
+		background-size: contain;
+		top: 0;
 	}
 
-	.hero-img {
-		height: 87vh;
-	}
-
-	.hero-text {
+	.bio {
 		width: 95%;
+		height: 50vh;
+	}
+
+	.bio h2 {
+		font-size: 2.5rem;
+		position: relative;
+		bottom: 50px;
+	}
+
+	.bio h3 {
+		font-size: 1.5rem;
+		position: relative;
+		bottom: 30px;
 	}
 
 	/* Projects */
