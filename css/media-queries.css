@@ -8,11 +8,11 @@
 	}
 
 	h2 {
-		font-size: 1.7rem;
+		font-size: 1.4rem;
 	}
 
 	h1 {
-		font-size: 2rem;
+		font-size: 1.7rem;
 	}
 
 	.container {
@@ -42,7 +42,7 @@
 	}
 
 	.hero-text {
-		width: 100%;
+		width: 95%;
 	}
 
 	/* Projects */
